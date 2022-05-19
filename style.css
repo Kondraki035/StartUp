@@ -1,0 +1,96 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Zen Maru Gothic', sans-serif;
+  font-size: 1em;
+  height: 100vh;
+  width: 100vw;
+  /* background-color: #EDE6DB; */
+  /* injection of an image set as the background */
+  background: url('images/header.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /*the following path is taken if the user sisn't have the first font then to the font.*/
+}
+  h1 {
+/*if its has a width use the following code to center it.*/
+  margin: 0;
+  line-height: 1;
+  font-family: "Arvo", cursive;
+}
+h2 {
+  line-height: 1;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #345B63;
+}
+h3 {
+  font-family: 'Grechen Fuemen', cursive;
+  color: #1D5C63;
+}
+/* startUp section */
+.ftsH1 {
+  color: whitesmoke;
+}
+.h-fix {
+  height: 100%;
+  width: 100%;
+}
+.btn {
+  font-weight: 500;
+  border-radius: 300px;
+  text-transform: uppercase;
+}
+.btn-primary {
+  border: 1px solid black;
+  background-color: #415168;
+  color: black;
+}
+.btn-primary:hover {
+  border: 1px solid black;
+  border-width: 4px;
+  border-color: #F05454;
+  background-color: #E04D01;
+  color: white;
+  
+}
+.btn-primary:active {
+  border: 1px solid black;
+  border-width: 4px;
+  border-color: #F05454;
+  background-color: #E04D01;
+  color: white;
+}
+.btn-xl {
+  padding: 0.8rem 1.2rem;
+}
+hr {
+  margin: 20px auto;
+  color: #F05F44;
+  border-width: 3px solid #F05F44;
+  max-width: 65px;
+  opacity: 1;  
+}
+/* .customBtn {
+  margin: 4px;
+  border: 1px solid black;
+  background-color: #415168;
+  color: black;
+  padding: 6px 12px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.listBtnClr {
+  border-color: #415168;
+  color: white
+}
+.listBtnClr:hover {
+  border-color: #F05454;
+  background-color: #E04D01;
+  color: white;
+} */
